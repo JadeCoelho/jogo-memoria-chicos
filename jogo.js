@@ -88,7 +88,7 @@ const criaCard = (chicx) => {
   const frente = criaElemento("div", "frente face");
   const verso = criaElemento("div", "verso face");
 
-  frente.style.backgroundImage = `url(/imgs/chicos/${chicx}.jpeg)`;
+  frente.style.backgroundImage = `url('imgs/chicos/${chicx}.jpeg')`;
 
   card.appendChild(frente);
   card.appendChild(verso);
